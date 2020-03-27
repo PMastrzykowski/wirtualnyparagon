@@ -6,7 +6,7 @@ import { landingEditField, landingValidate, landingSetStatus } from '../actions/
 
 class Landing extends Component {
     componentDidMount = () => {
-        axios.get('http://localhost:5000/api/requests/wakeup')
+        axios.get('http://creadores-backend.herokuapp.com/api/requests/wakeup')
         .then(res => {
         })
         .catch(err => {
@@ -45,7 +45,7 @@ class Landing extends Component {
                 service: 'wirtualnyparagon',
                 email: this.props.landing.fields.email
             }
-            axios.post('http://localhost:5000/api/requests/subscribe', data)
+            axios.post('http://creadores-backend.herokuapp.com/api/requests/subscribe', data)
                 .then(res => {
                     this.props.landingSetStatus('subscribed');
                 })
