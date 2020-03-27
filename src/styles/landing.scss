@@ -1,0 +1,410 @@
+#landing {
+  .header {
+    background-image: url("./header-bg.svg");
+    background-size: 100% 900px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 900px;
+    .navbar {
+      width: 100%;
+      height: 100px;
+      .navbar-inner {
+        width: 90%;
+        margin: 0 auto;
+        height: 100%;
+        // max-width: 900px;
+        @include flexbox();
+        @include align-items(center);
+        .logo {
+          background-image: url("./logo.svg");
+          background-size: contain;
+          width: 183px;
+          height: 68px;
+        }
+      }
+    }
+    .header-main {
+      width: 100%;
+      height: 800px;
+      @include flexbox();
+      .main {
+        width: 50%;
+        height: 800px;
+
+        box-sizing: border-box;
+        @include flexbox();
+        @include justify-content(center);
+        //   @include align-items(center);
+        .receipt {
+          width: 100%;
+          height: 100%;
+          background-image: url("./header-receipt.svg");
+          background-size: contain;
+          background-repeat: no-repeat;
+        }
+        .main-inner {
+          width: 90%;
+          max-width: 500px;
+          .title {
+            margin: 170px 0 30px;
+            font-size: 35px;
+            font-weight: 900;
+            color: $color-1;
+          }
+          .description {
+            line-height: 40px;
+            font-size: 20px;
+            color: $color-1;
+            font-weight: 300;
+          }
+          button {
+            margin-top: 50px;
+            background-color: $color-1;
+            font-size: 20px;
+            color: $color-2;
+            border-radius: 10px;
+            padding: 20px 40px;
+            box-shadow: $shadow-2;
+          }
+        }
+      }
+    }
+  }
+  .goal {
+    width: 100%;
+    .goal-inner {
+      width: 90%;
+      max-width: 900px;
+      margin: 0 auto;
+      .title {
+        margin: 40px 0 30px;
+        font-size: 30px;
+        font-weight: 400;
+        color: $color-2;
+      }
+      .description {
+        line-height: 40px;
+        font-size: 20px;
+        color: $color-3;
+        font-weight: 300;
+      }
+      hr {
+        outline: none;
+        border: 1px solid #c3dee8;
+        margin: 40px 0 0;
+        width: 100%;
+      }
+      button {
+        margin: 40px 0 0;
+        background-color: $color-2;
+        font-size: 14px;
+        color: $color-1;
+        border-radius: 10px;
+        padding: 20px 40px;
+        box-shadow: $shadow-2;
+      }
+    }
+  }
+  .roll {
+    // background-image: url("./paper-roll.svg");
+    // background-size: contain;
+    // background-repeat: no-repeat;
+    width: 100%;
+    img {
+      max-height: 600px;
+      max-width: 100%;
+    }
+  }
+  .usage {
+    width: 100%;
+    padding-top: 250px;
+    background: rgb(244, 244, 244);
+    background: -moz-linear-gradient(135deg, rgba(244, 244, 244, 1) 0%, rgba(205, 226, 234, 1) 100%);
+    background: -webkit-linear-gradient(135deg, rgba(244, 244, 244, 1) 0%, rgba(205, 226, 234, 1) 100%);
+    background: linear-gradient(135deg, rgba(244, 244, 244, 1) 0%, rgba(205, 226, 234, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f4f4f4",endColorstr="#cde2ea",GradientType=1);
+    clip-path: polygon(0 150px, 100% 0, 100% 100%, 0 100%);
+    .usage-inner {
+      margin: 0 auto;
+      text-align: center;
+      max-width: 700px;
+      width: 90%;
+      .title {
+        font-size: 30px;
+        margin: 0 auto 50px;
+        color: $color-2;
+      }
+      .description {
+        line-height: 35px;
+        font-size: 20px;
+        color: $color-3;
+        font-weight: 300;
+      }
+    }
+    .usage-examples {
+      width: 100%;
+      @include flexbox();
+      @include justify-content(space-around);
+      @include align-items(center);
+      margin: 100px 0;
+      .example {
+        background-color: $color-1;
+        border-radius: 10px;
+        padding: 40px;
+        width: 30%;
+        margin: 20px;
+        min-height: 250px;
+        max-width: 300px;
+        box-sizing: border-box;
+        box-shadow: $shadow-1;
+        .title {
+          font-size: 20px;
+          margin: 0 auto 5px;
+          color: $color-5;
+          text-transform: uppercase;
+        }
+        .description {
+          line-height: 30px;
+          font-size: 16px;
+          color: $color-3;
+          font-weight: 300;
+        }
+      }
+    }
+    .subscription {
+      clip-path: polygon(0 150px, 100% 0, 100% 100%, 0 100%);
+      width: 100%;
+      padding: 250px 0 100px;
+      background: rgb(122, 207, 237);
+      background: -moz-linear-gradient(135deg, rgba(122, 207, 237, 1) 0%, rgba(57, 181, 224, 1) 100%);
+      background: -webkit-linear-gradient(135deg, rgba(122, 207, 237, 1) 0%, rgba(57, 181, 224, 1) 100%);
+      background: linear-gradient(135deg, rgba(122, 207, 237, 1) 0%, rgba(57, 181, 224, 1) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#7acfed",endColorstr="#39b5e0",GradientType=1);
+      .subscription-inner {
+        margin: 0 auto;
+        width: 90%;
+        text-align: center;
+        max-width: 700px;
+        position: relative;
+        div{
+          transition: all 0.2s ease-in;
+        }
+        .title {
+          font-size: 30px;
+          margin: 0 auto 50px;
+          color: $color-1;
+          font-weight: 900;
+        }
+        .description {
+          line-height: 35px;
+          font-size: 20px;
+          color: $color-1;
+          font-weight: 300;
+        }
+        .input-wrapper {
+          margin: 100px 0 60px;
+          width: 100%;
+          input {
+            box-sizing: border-box;
+            width: 100%;
+            background-color: $color-1;
+            border: 3px solid $color-1;
+            padding: 20px;
+            font-size: 20px;
+            border-radius: 10px;
+          }
+          .error-text {
+            margin-top: 10px;
+            color: $color-6;
+            height: 20px;
+          }
+          &.error {
+            input {
+              border-color: $color-6;
+            }
+          }
+        }
+        button {
+          color: $color-1;
+          border: 3px solid $color-1;
+          padding: 20px 40px;
+          font-size: 20px;
+          background: none;
+          border-radius: 10px;
+          &.loading {
+            cursor: default;
+            background-color: $color-1;
+            color: $color-2;
+            &:hover {
+              transform: none;
+            }
+          }
+        }
+        .policy-note {
+          color: $color-1;
+          font-size: 10px;
+          line-height: 20px;
+          margin: 100px 0 0;
+        }
+        .success {
+          position: absolute;
+          @include flexbox();
+          @include flex-direction(column);
+          @include justify-content(center);
+          @include align-items(center);
+          color: $color-1;
+          font-size: 25px;
+          opacity: 0;
+          pointer-events: none;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          button{
+            margin-top: 40px;
+          }
+        }
+        &.subscribed {
+          .title,
+          .description,
+          .input-wrapper,
+          .button-wrapper,
+          .policy-note {
+            opacity: 0;
+            pointer-events: none;
+          }
+          .success{
+            opacity: 1;
+            pointer-events: all;
+          }
+        }
+      }
+    }
+  }
+  .footer {
+    padding: 80px 0;
+    background-color: $color-2;
+    text-align: center;
+    .logo {
+      margin: 0 auto 20px;
+      background-image: url("./logo.svg");
+      background-size: contain;
+      width: 183px;
+      height: 68px;
+    }
+    .title {
+      font-size: 20px;
+      font-weight: 300;
+      color: $color-1;
+    }
+    .value {
+      margin-top: 20px;
+      font-size: 20px;
+      color: $color-1;
+      font-weight: 900;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  #landing {
+    .header {
+      .navbar {
+        .navbar-inner {
+          .logo {
+            margin: 0 auto;
+          }
+        }
+      }
+      .header-main {
+        .main {
+          .main-inner {
+            .title {
+              font-size: 20px;
+            }
+            .description {
+              font-size: 15px;
+            }
+            button {
+              font-size: 15px;
+            }
+          }
+          .receipt {
+            margin-top: 100px;
+          }
+        }
+      }
+    }
+    .usage {
+      clip-path: polygon(0 50px, 100% 0, 100% 100%, 0 100%);
+      padding: 150px 0 0;
+      .usage-examples {
+        @include flex-direction(column);
+        margin: 50px 0;
+        .example {
+          width: 90%;
+          max-width: none;
+          min-height: auto;
+        }
+      }
+      .subscription {
+        clip-path: polygon(0 50px, 100% 0, 100% 100%, 0 100%);
+        padding: 150px 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 720px) {
+  #landing {
+    .header {
+      background-image: none;
+      background: rgb(0, 167, 224);
+      background: -moz-linear-gradient(135deg, rgba(0, 167, 224, 1) 0%, rgba(141, 214, 239, 1) 100%);
+      background: -webkit-linear-gradient(135deg, rgba(0, 167, 224, 1) 0%, rgba(141, 214, 239, 1) 100%);
+      background: linear-gradient(135deg, rgba(0, 167, 224, 1) 0%, rgba(141, 214, 239, 1) 100%);
+      height: auto;
+      clip-path: polygon(0 0, 100% 0, 100% calc(100% - 50px), 0 100%);
+      .navbar {
+        background: rgb(0, 167, 224);
+        background: -moz-linear-gradient(135deg, rgba(0, 167, 224, 1) 0%, rgba(141, 214, 239, 1) 100%);
+        background: -webkit-linear-gradient(135deg, rgba(0, 167, 224, 1) 0%, rgba(141, 214, 239, 1) 100%);
+        background: linear-gradient(135deg, rgba(0, 167, 224, 1) 0%, rgba(141, 214, 239, 1) 100%);
+      }
+      .header-main {
+        height: auto;
+        @include flex-direction(column);
+        .main {
+          width: 100%;
+          height: auto;
+          padding: 100px 0 150px;
+          .main-inner {
+            .title {
+              margin: 0 0 30px;
+              font-size: 20px;
+            }
+            .description {
+              font-size: 15px;
+            }
+            button {
+              font-size: 15px;
+            }
+          }
+          &.right {
+            display: none;
+          }
+        }
+      }
+    }
+    .goal {
+      .goal-inner {
+        .title {
+          margin: 100px 0 30px;
+        }
+        button {
+          margin: 40px 0 50px;
+        }
+      }
+    }
+  }
+}

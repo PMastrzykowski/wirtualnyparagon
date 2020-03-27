@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1041">
+  <defs>
+    <linearGradient id="linear-gradient" x2="1" y2="0.924" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#48bfe7"/>
+      <stop offset="1" stop-color="#24b3e4"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x2="1" y2="0.924" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#7acfed"/>
+      <stop offset="1" stop-color="#39b5e0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x2="1" y2="0.924" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#38abd1"/>
+      <stop offset="1" stop-color="#24b3e4"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.402" y1="-0.248" x2="0.032" y2="0.899" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#33b8e5"/>
+      <stop offset="1" stop-color="#63ccf0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="0.243" y1="0.405" x2="1" y2="0.631" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00a7e0"/>
+      <stop offset="1" stop-color="#8dd6ef"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_22" data-name="Grupo 22" transform="translate(0 0)">
+    <rect id="Rectángulo_3" data-name="Rectángulo 3" width="569" height="453" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+    <rect id="Rectángulo_12" data-name="Rectángulo 12" width="547" height="453" transform="translate(559 0)" fill="url(#linear-gradient-2)"/>
+    <rect id="Rectángulo_11" data-name="Rectángulo 11" width="831" height="453" transform="translate(1089 0)" fill="url(#linear-gradient-3)"/>
+    <path id="Trazado_16" data-name="Trazado 16" d="M0,0H832V107.974S526.581,190.328,318.581,260.335,0,388,0,388Z" transform="translate(0 653)" fill="url(#linear-gradient-4)"/>
+    <path id="Trazado_15" data-name="Trazado 15" d="M0,161.19s223.239-59.338,703.239-99.636S1920,0,1920,0V505.034s-587.647-10.959-1067.647,62.039S0,797.027,0,797.027Z" transform="translate(0 98)" fill="url(#linear-gradient-5)"/>
+  </g>
+</svg>

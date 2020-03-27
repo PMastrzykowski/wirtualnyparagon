@@ -1,0 +1,20 @@
+body, #root, #app{
+    font-family: $font-1;
+    background-color: $color-1;
+    margin: 0;
+    padding: 0;
+}
+button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.2s;
+    transition-timing-function: cubic-bezier(.53,-0.53,.55,1.63);
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+input{
+    border: none;
+    outline: none;
+}

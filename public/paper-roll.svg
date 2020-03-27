@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1374" height="514" viewBox="0 0 1374 514">
+  <defs>
+    <filter id="Trazado_10" x="893.284" y="-49.183" width="488.716" height="565.763" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="40" result="blur"/>
+      <feFlood flood-color="#3a88a2" flood-opacity="0.173"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.129" y1="0.845" x2="0.455" y2="-0.044" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#c5d9e0" stop-opacity="0.345"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <filter id="Trazado_9" x="-120.001" y="-50.579" width="1314.983" height="585.772" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="40" result="blur-2"/>
+      <feFlood flood-color="#3a88a2" flood-opacity="0.204"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-paper-roll">
+      <rect width="1374" height="514"/>
+    </clipPath>
+  </defs>
+  <g id="paper-roll" clip-path="url(#clip-paper-roll)">
+    <g id="paper-roll-2" data-name="paper-roll" transform="translate(-112.394 69.078)">
+      <g id="Grupo_14" data-name="Grupo 14" transform="matrix(-0.966, 0.259, -0.259, -0.966, 1374.394, 280.902)">
+        <g transform="matrix(-0.97, -0.26, 0.26, -0.97, 1128.42, 664.68)" filter="url(#Trazado_10)">
+          <path id="Trazado_10-2" data-name="Trazado 10" d="M0,239.607s0,49.4,90.025,49.4,90.025-49.4,90.025-49.4V49.4S180.049,0,90.025,0,0,49.4,0,49.4Z" transform="matrix(-0.97, 0.26, -0.26, -0.97, 1262, 349.98)" fill="#fafafa"/>
+        </g>
+        <ellipse id="Elipse_5" data-name="Elipse 5" cx="89.983" cy="48.832" rx="89.983" ry="48.832" transform="translate(0 193.147)" fill="#eef2f3"/>
+        <ellipse id="Elipse_6" data-name="Elipse 6" cx="16.46" cy="8.23" rx="16.46" ry="8.23" transform="translate(73.523 237.041)" fill="url(#linear-gradient)"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 112.39, -69.08)" filter="url(#Trazado_9)">
+        <path id="Trazado_9-2" data-name="Trazado 9" d="M261.285,1074.983c-30.437-24.513-110.653-105.164-98.733-266.277,14.68-198.415,134.022-324.886,169.1-518.865S326.889,52.053,316.735,22.695,277.91.865,277.91.865L89.667,50.821s32.738-1.657,41.075,25.825c14.524,47.879,58.583,119.613,45.689,260.434C156.156,558.5,11.383,596.571.841,798.609c-5.45,104.453,18.213,205.715,40.733,276.374Z" transform="translate(1074.98 69.37) rotate(90)" fill="#fafafa"/>
+      </g>
+    </g>
+  </g>
+</svg>
